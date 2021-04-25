@@ -440,11 +440,34 @@ hr {
     list-style-type: circle;
 }
 
-.me-img {
+@media screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .me-img {
+        margin: -15px 5px 1px 0;
+        height: 450px;
+        width: 346px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dash-para_id {
+        width: 300px;
+    }
+}
+
+.dash-para {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px;
+    padding: 20px;
+    max-width: 500px;
+    border: 1px solid white;
+}
+
+
+/* .me-img {
     margin: 0 5px 5px 0;
     height: 430px;
     width: 600px;
-}
+} */
 
 .me-img2 {
     margin: 0 5px 5px 0;
@@ -459,14 +482,6 @@ hr {
     display: flex;
     margin-top: 4%;
     margin-left: 2%;
-}
-
-.dash-para {
-    background-color: rgba(0, 0, 0, 0.7);
-    margin: 30px;
-    width: 500px;
-    padding: 20px;
-    border: 1px solid white;
 }
 
 .tele {
