@@ -440,7 +440,7 @@ hr {
     list-style-type: circle;
 }
 
-@media screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-width: 800px) {
     .me-img {
         margin: -15px 5px 1px 0;
         height: 450px;
