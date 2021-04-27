@@ -45,7 +45,7 @@
         }
     }
     let j = 0;
-    let txt2 = ' Please feel free to look at my projects inside my Project section, glad you here!'; /* The text */
+    let txt2 = ' Please feel free to look at my projects inside my Project section, glad you\'re here!'; /* The text */
     var speed2 = 50; /* The speed/duration of the effect in milliseconds */
     function typeWriter3() {
         if (j < txt2.length) {
